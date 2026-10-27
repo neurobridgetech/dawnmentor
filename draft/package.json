@@ -1,0 +1,23 @@
+{
+  "name": "dawn-mentor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prepare-sites-build.mjs && node scripts/prerender.mjs",
+    "build:pages": "vite build && node scripts/prerender.mjs",
+    "preview": "node scripts/serve-build.mjs",
+    "test:sites": "node --test tests/sites-worker.test.mjs",
+    "test:release": "node --test tests/release.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "sharp": "^0.35.5",
+    "vite": "6.4.2"
+  }
+}
