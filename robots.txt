@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neurobridgetech.github.io/dawnmentor/sitemap.xml
