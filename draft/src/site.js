@@ -11,10 +11,11 @@ export function url(path = '/') {
 }
 
 export const site = {
-  name: 'Dawn Mentor',
-  institute: 'QuantEdge by Dawnmentor',
+  name: 'LN Physics',
+  institute: 'QuantEdge by LN Physics',
   email: 'Er.sanketvyas@gmail.com',
   address: '463, Devi Nagar, New Sanganer Road, Sodala',
-  url: 'https://www.dawnmentor.com',
+  url: 'https://lnphysics.com',
   aiUrl: 'https://edu.aichanakya.in/',
+  tagline: 'CURIOSITY INTO CLARITY',
 };

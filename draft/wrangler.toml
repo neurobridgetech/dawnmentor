@@ -1,0 +1,5 @@
+# Used if you deploy via Workers static assets.
+# Prefer Cloudflare Pages (Git) for lnphysics.com — see README.
+name = "lnphysics"
+compatibility_date = "2025-10-01"
+pages_build_output_dir = "dist/client"

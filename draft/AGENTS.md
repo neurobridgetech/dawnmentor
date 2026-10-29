@@ -10,6 +10,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Approved product direction (27 October 2026)
 - Keep the selected prism science theme, teal/mint/white palette and uncluttered messaging.
+- Brand is **LN Physics** (domain lnphysics.com). Tagline remains CURIOSITY INTO CLARITY. Atom-orbit LN mark + Syne wordmark.
 - Use an educator-focused logo mark and full designed wordmark with depth; the user authorizes creative refinement.
 - Add a complete multi-column footer, a local blog index and local reading pages for all five existing articles.
 - Preserve original article dates and label archived information honestly; do not invent teacher credentials or available resources.
