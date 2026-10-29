@@ -1,0 +1,107 @@
+/* TEMPORARY — delete after you pick a theme. Enable with the floating picker. */
+:root{
+  --accent:#008f89;
+  --accent-hover:#007a74;
+  --accent-deep:#006966;
+  --accent-wash:#e6f7f5;
+  --accent-wash-2:#e9f8f5;
+  --accent-line:#bce1df;
+  --accent-focus:#005f5a;
+  --footer-bg:#082b30;
+  --footer-muted:#a7d3cf;
+  --footer-text:#bbd3d4;
+}
+html[data-theme=cobalt]{
+  --teal:#1f4b99;
+  --accent:#1f4b99;
+  --accent-hover:#163a78;
+  --accent-deep:#122a5c;
+  --accent-wash:#e8eef8;
+  --accent-wash-2:#eef2fa;
+  --accent-line:#c5d0e8;
+  --accent-focus:#163a78;
+  --footer-bg:#0b1a33;
+  --footer-muted:#9db0d0;
+  --footer-text:#b8c5dc;
+  --line:#d5ddeb;
+}
+html[data-theme=emerald]{
+  --teal:#0f6b5c;
+  --accent:#0f6b5c;
+  --accent-hover:#0b5347;
+  --accent-deep:#0a4a40;
+  --accent-wash:#e7f4f0;
+  --accent-wash-2:#eef8f4;
+  --accent-line:#b5ddd2;
+  --accent-focus:#0b5347;
+  --footer-bg:#062821;
+  --footer-muted:#8fbfb4;
+  --footer-text:#a9cfc6;
+  --line:#d2e6e0;
+}
+html[data-theme=cobalt] .button,
+html[data-theme=emerald] .button{background:var(--accent)}
+html[data-theme=cobalt] .button:hover,
+html[data-theme=emerald] .button:hover{background:var(--accent-hover)}
+html[data-theme=cobalt] .text-link,
+html[data-theme=emerald] .text-link,
+html[data-theme=cobalt] .navigation a:hover,
+html[data-theme=emerald] .navigation a:hover,
+html[data-theme=cobalt] .navigation a[aria-current=page],
+html[data-theme=emerald] .navigation a[aria-current=page],
+html[data-theme=cobalt] .coming-team,
+html[data-theme=emerald] .coming-team,
+html[data-theme=cobalt] .article-arrow,
+html[data-theme=emerald] .article-arrow,
+html[data-theme=cobalt] .resource svg,
+html[data-theme=emerald] .resource svg,
+html[data-theme=cobalt] .about-values svg,
+html[data-theme=emerald] .about-values svg{color:var(--accent)}
+html[data-theme=cobalt] .ai-section,
+html[data-theme=emerald] .ai-section{background:var(--accent-deep)}
+html[data-theme=cobalt] .site-footer,
+html[data-theme=emerald] .site-footer{background:var(--footer-bg)}
+html[data-theme=cobalt] .step-number,
+html[data-theme=emerald] .step-number,
+html[data-theme=cobalt] .article-icon,
+html[data-theme=emerald] .article-icon{background:var(--accent-wash);color:var(--accent)}
+html[data-theme=cobalt] .step:not(:last-child):after,
+html[data-theme=emerald] .step:not(:last-child):after{background:var(--accent-line)}
+html[data-theme=cobalt] .button-light:hover,
+html[data-theme=emerald] .button-light:hover{background:var(--accent-wash)}
+html[data-theme=cobalt] a:focus-visible,
+html[data-theme=cobalt] button:focus-visible,
+html[data-theme=emerald] a:focus-visible,
+html[data-theme=emerald] button:focus-visible{outline-color:var(--accent-focus)}
+html[data-theme=cobalt] .brand-electron,
+html[data-theme=emerald] .brand-electron{fill:var(--accent)}
+html[data-theme=cobalt] .footer-brand small,
+html[data-theme=emerald] .footer-brand small{color:var(--footer-muted)}
+html[data-theme=cobalt] .footer-intro>p,
+html[data-theme=emerald] .footer-intro>p{color:var(--footer-text)}
+
+/* Prism + assessment art are baked teal — shift them with the theme */
+html[data-theme=cobalt] .prism,
+html[data-theme=cobalt] .ai-inner>img{
+  filter:hue-rotate(48deg) saturate(1.05) brightness(.98);
+}
+html[data-theme=emerald] .prism,
+html[data-theme=emerald] .ai-inner>img{
+  filter:hue-rotate(-12deg) saturate(1.08) brightness(.97);
+}
+html:not([data-theme]) .prism,
+html:not([data-theme]) .ai-inner>img{filter:none}
+
+.theme-preview-bar{
+  position:fixed;z-index:100;right:16px;bottom:16px;display:flex;gap:6px;padding:8px;
+  background:#fff;border:1px solid #d7e9e9;border-radius:999px;box-shadow:0 10px 30px #0c132520;
+  font:650 12px/1 'DM Sans Variable',Arial,sans-serif
+}
+.theme-preview-bar button{
+  border:0;background:transparent;color:#55647b;padding:10px 14px;border-radius:999px;cursor:pointer
+}
+.theme-preview-bar button[aria-pressed=true]{background:var(--accent,#008f89);color:#fff}
+.theme-preview-bar .theme-preview-note{display:none}
+@media(min-width:700px){
+  .theme-preview-bar .theme-preview-note{display:inline;padding:10px 8px 10px 4px;color:#698095;font-weight:500}
+}

@@ -37,7 +37,7 @@ export function BrandMark({size = 52, className = ''}) {
         transform="rotate(48 48 48)"
       />
       {/* Electron */}
-      <circle cx="76.5" cy="35.5" r="2.6" fill="#008f89" />
+      <circle className="brand-electron" cx="76.5" cy="35.5" r="2.6" fill="var(--accent, #008f89)" />
       {/* LN — tall, light geometric monogram */}
       <g fill="currentColor">
         <path d="M28 30h3.1v33.2H42.2v3.1H28z" />
