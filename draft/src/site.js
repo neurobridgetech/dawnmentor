@@ -11,8 +11,8 @@ export function url(path = '/') {
 }
 
 export const site = {
-  name: 'LN Physics',
-  institute: 'QuantEdge by LN Physics',
+  name: 'Ln Physics',
+  institute: 'QuantEdge by Ln Physics',
   email: 'Er.sanketvyas@gmail.com',
   address: '463, Devi Nagar, New Sanganer Road, Sodala',
   url: 'https://lnphysics.com',

@@ -1,6 +1,6 @@
-# LN Physics
+# Ln Physics
 
-Site for QuantEdge by LN Physics — **https://lnphysics.com**
+Site for QuantEdge by Ln Physics — **https://lnphysics.com**
 
 ## Local development
 
@@ -25,7 +25,10 @@ Do **not** use the Worker form with `npx wrangler deploy`.
 
 ## Brand
 
-- Name: **LN Physics**
+- Name: **Ln Physics**
 - Tagline: CURIOSITY INTO CLARITY
-- Mark: atom-orbit LN emblem (teal + ink)
-- Wordmark: Syne
+- Logo: flat cobalt and navy Ln Physics wordmark with an orbital monogram
+- HD master: `draft/public/assets/ln-physics-cobalt-hd.png` (transparent PNG)
+- Website asset: `draft/public/assets/ln-physics-logo.webp`
+
+- Theme: permanent cobalt, navy and white. Theme preview controls have been removed.
