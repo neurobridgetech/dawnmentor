@@ -14,7 +14,7 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Use an educator-focused logo mark and full designed wordmark with depth; the user authorizes creative refinement.
 - Add a complete multi-column footer, a local blog index and local reading pages for all five existing articles.
 - Preserve original article dates and label archived information honestly; do not invent teacher credentials or available resources.
-- Chanakya AI redirects to https://edu.aichanakya.in/. No local sign-in is required for this presentation site.
+- Chanakya AI redirects to https://app.lnphysics.com/. No local sign-in is required for this presentation site.
 - Prepare a deployable production build; deployment destination and public contact details are being clarified.
 
 ## Approved brand update (1 November 2026)
@@ -26,3 +26,8 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Cobalt is the permanent theme. Remove theme choices and preview controls.
 - Keep the Ln Physics orbital concept, refined into a flat cobalt/navy logo without neon, chrome or amber effects. This supersedes the earlier glossy logo direction.
 - Use white text on cobalt primary actions; use white buttons with navy text on dark sections. All cards, links, icons, focus states and artwork should follow the cobalt palette.
+
+## Brand text casing (3 November 2026)
+- Use **ln Physics** everywhere in website text, metadata and accessible labels. Both l and n are lowercase, including inside uppercase eyebrow labels. This supersedes earlier capitalization directions.
+
+- Approved practice destination (3 November 2026): https://app.lnphysics.com/ for all Start practising buttons and related platform links.

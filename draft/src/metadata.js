@@ -11,12 +11,12 @@ export const routes=['/','/blog','/about','/contact','/faq','/privacy-policy',..
 export function getPageMeta(rawPath){
  const path=cleanPath(rawPath); const post=posts.find(p=>path==='/blog/'+p.slug);
  const pages={
- '/':['Big questions. Clear understanding.','Discover physics and science with Ln Physics and QuantEdge. Meet our teachers, explore study ideas and practise with Chanakya AI.'],
- '/blog':['The Learning Journal','Study strategies, JEE and NEET exam guides, and practical ideas from the Ln Physics learning journal.'],
- '/about':['About Ln Physics','Meet QuantEdge by Ln Physics: teacher-led learning, clear concepts and a growing community for physics and science.'],
- '/contact':['Contact QuantEdge','Contact QuantEdge by Ln Physics for class enquiries and learning support. Email '+site.email+'.'],
- '/faq':['Frequently Asked Questions','Answers about Ln Physics, QuantEdge, learning resources and access to Chanakya AI.'],
- '/privacy-policy':['Privacy Notice','How the Ln Physics website handles browsing, enquiries and external platform links.']};
+ '/':['Big questions. Clear understanding.','Discover physics and science with ln Physics and QuantEdge. Meet our teachers, explore study ideas and practise with Chanakya AI.'],
+ '/blog':['The Learning Journal','Study strategies, JEE and NEET exam guides, and practical ideas from the ln Physics learning journal.'],
+ '/about':['About ln Physics','Meet QuantEdge by ln Physics: teacher-led learning, clear concepts and a growing community for physics and science.'],
+ '/contact':['Contact QuantEdge','Contact QuantEdge by ln Physics for class enquiries and learning support. Email '+site.email+'.'],
+ '/faq':['Frequently Asked Questions','Answers about ln Physics, QuantEdge, learning resources and access to Chanakya AI.'],
+ '/privacy-policy':['Privacy Notice','How the ln Physics website handles browsing, enquiries and external platform links.']};
  const match=post?[post.title,post.description]:pages[path];
- return {path,title:(match?.[0]||'Page not found')+' | Ln Physics',description:match?.[1]||'Find your way back to Ln Physics.',canonical:site.url+path,post,notFound:!match};
+ return {path,title:(match?.[0]||'Page not found')+' | ln Physics',description:match?.[1]||'Find your way back to ln Physics.',canonical:site.url+path,post,notFound:!match};
 }

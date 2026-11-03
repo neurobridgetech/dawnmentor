@@ -39,3 +39,6 @@
 .ai-section a:focus-visible,.site-footer a:focus-visible{outline-color:#fff;}
 .prism,.ai-inner>img,.featured-art img{filter:hue-rotate(48deg) saturate(1.05) brightness(.98);}
 .footer-brand .brand-logo{filter:brightness(0) invert(1);}
+
+/* Preserve brand casing inside uppercase editorial labels. */
+.brand-name{text-transform:none;}
