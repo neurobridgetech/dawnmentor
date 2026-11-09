@@ -12,7 +12,7 @@ export function url(path = '/') {
 
 export const site = {
   name: 'ln Physics',
-  institute: 'QuantEdge by ln Physics',
+  institute: 'ln Physics',
   email: 'Er.sanketvyas@gmail.com',
   address: '463, Devi Nagar, New Sanganer Road, Sodala',
   url: 'https://lnphysics.com',
