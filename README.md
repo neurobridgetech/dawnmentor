@@ -1,6 +1,6 @@
 # ln Physics
 
-Site for QuantEdge by ln Physics — **https://lnphysics.com**
+Site for ln Physics — **https://lnphysics.com**
 
 ## Local development
 
